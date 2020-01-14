@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="login-info">
+            <h1>
+                Learn to code by watching others
+            </h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </section>
+        <section class="login-form">
+            <button class="try-btn"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+            <form>
+                <span class="error" data-error="First Name cannot be empty">
+                    <input type="text" name="name" id="firstname" placeholder="First Name" required>
+                </span>
+                <span data-error="Last Name cannot be empty">
+                    <input type="text" name="name" id="lastname" placeholder="Last Name" required>
+                </span>
+                <span data-error="Looks like this is not an email">  
+                    <input type="email" name="name" id="email" placeholder="Email Address" required>
+                </span>
+                <span data-error="Password cannot be empty">
+                    <input type="password" name="name" id="password" placeholder="Password" required>
+                </span>
+                <span>
+                    <button class="claim-btn" type="submit">Claim your free trial</button>
+                </span>
+                <span class="terms-conditions-text">By clicking the button, you are agreeing to our <a href="" class="link">Terms and Services</a></span>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
